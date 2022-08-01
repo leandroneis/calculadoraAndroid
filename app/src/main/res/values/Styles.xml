@@ -16,7 +16,7 @@
     </style>
 
     <style name="Numbers_Button" parent="Container_Button">
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@drawable/botao_numero_clicado</item>
         <item name="android:textColor">@color/blue_dark</item>
     </style>
 

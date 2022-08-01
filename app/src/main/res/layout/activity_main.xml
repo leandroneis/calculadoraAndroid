@@ -9,18 +9,6 @@
 
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/txt_expressao"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginEnd="10dp"
-        android:ellipsize="start"
-        android:gravity="end"
-        android:singleLine="true"
-        android:text="5+5"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/txt_resultado"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -29,8 +17,24 @@
         android:gravity="end"
         android:maxLines="1"
         android:text="10"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textColor="@color/material_dynamic_primary50"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_expressao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="5+5"
+        android:textColor="@color/material_dynamic_primary50"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -164,7 +168,9 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonIgual"
             style="@style/Total_Button"
-            android:text="=" />
+            android:text="="
+            android:textColor="#FFFFFF"
+            tools:ignore="TextContrastCheck" />
     </LinearLayout>
 
 </LinearLayout>
